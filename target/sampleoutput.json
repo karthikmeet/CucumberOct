@@ -1,0 +1,274 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Sample Background",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 73347399,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "background given statement",
+            "match": {
+              "location": "HomePageStepDef.background_given_statement()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 167499,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "background when statement",
+            "match": {
+              "location": "HomePageStepDef.background_when_statement()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 678901,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "background then statement",
+            "match": {
+              "location": "HomePageStepDef.background_then_statement()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2461448699,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.browserlaunch()"
+            }
+          }
+        ],
+        "line": 9,
+        "name": "Sample Scenario",
+        "description": "",
+        "id": "homepagefeature;sample-scenario",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 896395801,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Open fb and launch the application",
+            "match": {
+              "location": "HomePageStepDef.open_fb_and_launch_the_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 158051700,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Enter username and password",
+            "match": {
+              "location": "HomePageStepDef.enter_username_and_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 310776001,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Close the browser",
+            "match": {
+              "location": "HomePageStepDef.close_the_browser()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@testing"
+          }
+        ]
+      }
+    ],
+    "name": "HomePageFeature",
+    "description": "",
+    "id": "homepagefeature",
+    "keyword": "Feature",
+    "uri": "Features/homepageoct.feature",
+    "tags": [
+      {
+        "name": "@testing",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1242738700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.browserlaunch()"
+            }
+          }
+        ],
+        "line": 10,
+        "name": "Second Page Scenario",
+        "description": "",
+        "id": "secondpagefeature;second-page-scenario;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1084289700,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "SOOpen fb and launch the application",
+            "match": {
+              "location": "SecondPageStepDef.open_fb_and_launch_the_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 166567099,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "SOEnter username as \"Vignesh\" and password as \"B\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Vignesh\"",
+                  "offset": 20
+                },
+                {
+                  "val": "\"B\"",
+                  "offset": 46
+                }
+              ],
+              "location": "SecondPageStepDef.enter_username_and_password(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1093398100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "SOClose the browser",
+            "match": {
+              "location": "SecondPageStepDef.close_the_browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1213208799,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.browserlaunch()"
+            }
+          }
+        ],
+        "line": 11,
+        "name": "Second Page Scenario",
+        "description": "",
+        "id": "secondpagefeature;second-page-scenario;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 872722801,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "SOOpen fb and launch the application",
+            "match": {
+              "location": "SecondPageStepDef.open_fb_and_launch_the_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 153290801,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "SOEnter username as \"Archana\" and password as \"C\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Archana\"",
+                  "offset": 20
+                },
+                {
+                  "val": "\"C\"",
+                  "offset": 46
+                }
+              ],
+              "location": "SecondPageStepDef.enter_username_and_password(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 271493400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "SOClose the browser",
+            "match": {
+              "location": "SecondPageStepDef.close_the_browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "SecondPageFeature",
+    "description": "",
+    "id": "secondpagefeature",
+    "keyword": "Feature",
+    "uri": "Features/secondpage.feature",
+    "tags": []
+  }
+]
